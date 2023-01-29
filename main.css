@@ -1,0 +1,495 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to top right, #6c3ce0, #00b694);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.content__h1{
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 70px;
+    margin: 10px auto;
+    text-align: center;
+    cursor: default;
+}
+
+.galeria{
+    margin: 5px auto;
+    width: 85%;
+    height: 70%;
+    background: #fff;
+    overflow: overlay ;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    border: 3px solid #8967d8;
+    border-right: none;
+}
+
+.galeria::-webkit-scrollbar{
+    width: 5px;
+}
+
+
+
+.galeria::-webkit-scrollbar-thumb{
+    background-color: #8967d8;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+.galeria__image{
+    width: 200px;
+    height: 200px;
+    margin: 5px auto;
+    cursor: pointer;
+    transition: all 1s;
+
+}
+
+.galeria__image:hover{
+    opacity: .5;
+}
+
+
+.image-1:active{
+    width: 230px;
+    height: 230px;
+    position: relative;
+    left: 2px;
+    margin: 10px auto;
+    opacity: 1;
+    box-shadow: 10px 10px 10px 0 #000;
+
+}
+
+.image-2:active{
+    width: 230px;
+    height: 230px;
+    position: relative;
+    left: 2px;
+    margin: 10px auto;
+    opacity: 1;
+    box-shadow: 10px 10px 10px 0 #000;
+}
+
+.image-3:active{
+    width: 230px;
+    height: 230px;
+    position: relative;
+    left: 2px;
+    margin: 10px auto;
+    opacity: 1;
+    box-shadow: 10px 10px 10px 0 #000;
+
+}
+
+.image-4:active{
+    width: 230px;
+    height: 230px;
+    position: relative;
+    left: 2px;
+    margin: 10px auto;
+    opacity: 1;
+    box-shadow: 10px 10px 10px 0 #000;
+}
+
+.image-5:active{
+    width: 230px;
+    height: 230px;
+    position: relative;
+    left: 10px;
+    right: 10px;
+    margin: 10px auto;
+    opacity: 1;
+    box-shadow: 10px 10px 10px 0 #000;
+}
+
+.image-6:active{
+    width: 230px;
+    height: 230px;
+    position: relative;
+    left: 10px;
+    right: 10px;
+    margin: 10px auto;
+    opacity: 1;
+    box-shadow: 10px 10px 10px 0 #000;
+}
+
+.image-7:active{
+    width: 230px;
+    height: 230px;
+    position: relative;
+    left: 10px;
+    right: 10px;
+    margin: 10px auto;
+    opacity: 1;
+        box-shadow: 10px 10px 10px 0 #000;
+}
+
+.image-8:active{
+    width: 230px;
+    height: 230px;
+    position: relative;
+    left: 10px;
+    right: 10px;
+    margin: 10px auto;
+    opacity: 1;
+        box-shadow: 10px 10px 10px 0 #000;
+}
+
+.image-9:active{
+    width: 230px;
+    height: 230px;
+    position: relative;
+    left: 10px;
+    right: 10px;
+    margin: 10px auto;
+    opacity: 1;
+        box-shadow: 10px 10px 10px 0 #000;
+}
+
+.image-10:active{
+    width: 230px;
+    height: 230px;
+    position: relative;
+    left: 10px;
+    right: 10px;
+    margin: 10px auto;
+    opacity: 1;
+        box-shadow: 10px 10px 10px 0 #000;
+}
+
+.image-11:active{
+    width: 230px;
+    height: 230px;
+    position: relative;
+    left: 10px;
+    right: 10px;
+    margin: 10px auto;
+    opacity: 1;
+        box-shadow: 10px 10px 10px 0 #000;
+}
+
+.image-12:active{
+    width: 230px;
+    height: 230px;
+    position: relative;
+    left: 10px;
+    right: 10px;
+    margin: 10px auto;
+    opacity: 1;
+        box-shadow: 10px 10px 10px 0 #000;
+}
+
+.image-13:active{
+    width: 230px;
+    height: 230px;
+    position: relative;
+    left: 10px;
+    right: 10px;
+    margin: 10px auto;
+    opacity: 1;
+        box-shadow: 10px 10px 10px 0 #000;
+}
+
+.image-14:active{
+    width: 230px;
+    height: 230px;
+    position: relative;
+    left: 10px;
+    right: 10px;
+    margin: 10px auto;
+    opacity: 1;
+        box-shadow: 10px 10px 10px 0 #000;
+}
+
+.image-15:active{
+    width: 230px;
+    height: 230px;
+    position: relative;
+    left: 10px;
+    right: 10px;
+    margin: 10px auto;
+    opacity: 1;
+        box-shadow: 10px 10px 10px 0 #000;
+}
+
+.image-16:active{
+    width: 230px;
+    height: 230px;
+    position: relative;
+    left: 10px;
+    right: 10px;
+    margin: 10px auto;
+    opacity: 1;
+        box-shadow: 10px 10px 10px 0 #000;
+}
+
+.image-17:active{
+    width: 230px;
+    height: 230px;
+    position: relative;
+    left: 10px;
+    right: 10px;
+    margin: 10px auto;
+    opacity: 1;
+        box-shadow: 10px 10px 10px 0 #000;
+}
+
+.image-18:active{
+    width: 230px;
+    height: 230px;
+    position: relative;
+    left: 10px;
+    right: 10px;
+    margin: 10px auto;
+    opacity: 1;
+        box-shadow: 10px 10px 10px 0 #000;
+}
+
+.image-19:active{
+    width: 230px;
+    height: 230px;
+    position: relative;
+    left: 10px;
+    right: 10px;
+    margin: 10px auto;
+    opacity: 1;
+        box-shadow: 10px 10px 10px 0 #000;
+}
+
+.image-20:active{
+    width: 230px;
+    height: 230px;
+    position: relative;
+    left: 10px;
+    right: 10px;
+    margin: 10px auto;
+    opacity: 1;
+        box-shadow: 10px 10px 10px 0 #000;
+}
+
+.image-21:active{
+    width: 230px;
+    height: 230px;
+    position: relative;
+    left: 2px;
+    margin: 10px auto;
+    opacity: 1;
+        box-shadow: 10px 10px 10px 0 #000;
+}
+
+.image-22:active{
+    width: 230px;
+    height: 230px;
+    position: relative;
+    left: 2px;
+    margin: 10px auto;
+    opacity: 1;
+        box-shadow: 10px 10px 10px 0 #000;
+}
+
+.image-23:active{
+    width: 230px;
+    height: 230px;
+    position: relative;
+    left: 2px;
+    margin: 10px auto;
+    opacity: 1;
+        box-shadow: 10px 10px 10px 0 #000;
+}
+
+.image-24:active{
+    width: 230px;
+    height: 230px;
+    position: relative;
+    left: 2px;
+    margin: 10px auto;
+    opacity: 1;
+        box-shadow: 10px 10px 10px 0 #000;
+}
+
+.image-25:active{
+    width: 230px;
+    height: 230px;
+    position: relative;
+    left: 10px;
+    right: 10px;
+    margin: 10px auto;
+    opacity: 1;
+        box-shadow: 10px 10px 10px 0 #000;
+}
+
+.image-26:active{
+    width: 230px;
+    height: 230px;
+    position: relative;
+    left: 10px;
+    right: 10px;
+    margin: 10px auto;
+    opacity: 1;
+        box-shadow: 10px 10px 10px 0 #000;
+}
+
+.image-27:active{
+    width: 230px;
+    height: 230px;
+    position: relative;
+    left: 10px;
+    right: 10px;
+    margin: 10px auto;
+    opacity: 1;
+        box-shadow: 10px 10px 10px 0 #000;
+}
+
+.image-28:active{
+    width: 230px;
+    height: 230px;
+    position: relative;
+    left: 10px;
+    right: 10px;
+    margin: 10px auto;
+    opacity: 1;
+        box-shadow: 10px 10px 10px 0 #000;
+}
+
+.image-29:active{
+    width: 230px;
+    height: 230px;
+    position: relative;
+    left: 10px;
+    right: 10px;
+    margin: 10px auto;
+    opacity: 1;
+        box-shadow: 10px 10px 10px 0 #000;
+}
+
+.image-30:active{
+    width: 230px;
+    height: 230px;
+    position: relative;
+    left: 10px;
+    right: 10px;
+    margin: 10px auto;
+    opacity: 1;
+        box-shadow: 10px 10px 10px 0 #000;
+}
+
+.image-31:active{
+    width: 230px;
+    height: 230px;
+    position: relative;
+    left: 10px;
+    right: 10px;
+    margin: 10px auto;
+    opacity: 1;
+        box-shadow: 10px 10px 10px 0 #000;
+}
+
+.image-32:active{
+    width: 230px;
+    height: 230px;
+    position: relative;
+    left: 10px;
+    right: 10px;
+    margin: 10px auto;
+    opacity: 1;
+        box-shadow: 10px 10px 10px 0 #000;
+}
+
+.image-33:active{
+    width: 230px;
+    height: 230px;
+    position: relative;
+    left: 10px;
+    right: 10px;
+    margin: 10px auto;
+    opacity: 1;
+        box-shadow: 10px 10px 10px 0 #000;
+}
+
+.image-34:active{
+    width: 230px;
+    height: 230px;
+    position: relative;
+    left: 10px;
+    right: 10px;
+    margin: 10px auto;
+    opacity: 1;
+        box-shadow: 10px 10px 10px 0 #000;
+}
+
+.image-35:active{
+    width: 230px;
+    height: 230px;
+    position: relative;
+    left: 10px;
+    right: 10px;
+    margin: 10px auto;
+    opacity: 1;
+        box-shadow: 10px 10px 10px 0 #000;
+}
+
+.image-36:active{
+    width: 230px;
+    height: 230px;
+    position: relative;
+    left: 10px;
+    right: 10px;
+    margin: 10px auto;
+    opacity: 1;
+        box-shadow: 10px 10px 10px 0 #000;
+}
+
+.image-37:active{
+    width: 230px;
+    height: 230px;
+    position: relative;
+    left: 10px;
+    right: 10px;
+    margin: 10px auto;
+    opacity: 1;
+        box-shadow: 10px 10px 10px 0 #000;
+}
+
+.image-38:active{
+    width: 230px;
+    height: 230px;
+    position: relative;
+    left: 10px;
+    right: 10px;
+    margin: 10px auto;
+    opacity: 1;
+    box-shadow: 10px 10px 10px 0 #000;
+}
+
+.image-39:active{
+    width: 230px;
+    height: 230px;
+    position: relative;
+    left: 10px;
+    right: 10px;
+    margin: 10px auto;
+    opacity: 1;
+    box-shadow: 10px 10px 10px 0 #000;
+}
+
+.image-40:active{
+    width: 230px;
+    height: 230px;
+    position: relative;
+    left: 10px;
+    right: 10px;
+    margin: 10px auto;
+    opacity: 1;
+    box-shadow: 10px 10px 10px 0 #000;
+}
+
+
+
